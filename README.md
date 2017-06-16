@@ -1,7 +1,26 @@
 # Atom Guide
 
-The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom.
+[Atom](https://atom.io/) is cross-platform text editor which has its own internal system for providing additional functionality to your editor based on your needs. This is done through a internal system called packages. It is beginner friendly and relatively easy to get productive quickly. Text editors like Atom can be used for writing code as well as other uses.
 
+The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. It is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
+
+### Table of Contents
+**[Opening, Editing, and Saving Files](#opening-editing-and-saving-files)**<br>
+**[Opening Folders as Projects, and Editing Files within Projects](#opening-folders-as-projects-and-editing-files-within-projects)**<br>
+**[Changing Default Tab Space Size](#changing-default-tab-space-size)**<br>
+**[Setting Up, and Using Atom from the Command Line to Open Files and Folders](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders)**<br>
+**[Installing and Applying Themes](#installing-and-applying-themes)**<br>
+
+
+# Opening, Editing, and Saving Files
+
+# Opening Folders as Projects, and Editing Files within Projects
+
+# Changing Default Tab Space Size
+
+# Setting Up, and Using Atom from the Command Line to Open Files and Folders
+
+# Installing and Applying Themes
 
 # Contributing
 
