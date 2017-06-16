@@ -1,6 +1,6 @@
 # Atom Guide
 
-[Atom](https://atom.io/) is cross-platform text editor which has its own internal system for providing additional functionality to your editor based on your needs. This is done through a internal system called packages. It is beginner friendly and relatively easy to get productive quickly. Text editors like Atom can be used for writing code as well as other uses.
+[Atom](https://atom.io/) is a cross-platform text editor. It has its own internal system that allows you to install packages that can add functionality to your editor. Atom is beginner friendly and it is relatively easy to become productive with it quickly. Text editors like Atom can be used for writing code as well as other uses.
 
 The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. It is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
 
