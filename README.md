@@ -150,7 +150,7 @@ You now have the settings open.
 
 The theme changes will take immediate effect.
 
-### Install a New Yheme.
+### Install a New Theme.
 
 It may be the case that none of the default themes that come with Atom meet your needs. There are lots of themes to choose from online which you can add to Atom.
 
