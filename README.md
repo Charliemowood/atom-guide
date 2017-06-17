@@ -160,27 +160,27 @@ All the following command should be run sequentially by typing the commands into
 
 1. Run the following command to create a new directory.
 
-```bash
-mkdir example/
-```
+    ```bash
+    mkdir example/
+    ```
 
 2. To move into the directory you have created, run the command:
 
-```bash
-cd example/
-```
+    ```bash
+    cd example/
+    ```
 
 3. To create a new file in this repository, run the command.
 
-```bash
-touch example.txt
-```
+    ```bash
+    touch example.txt
+    ```
 
 4. Use Atom to open this file.
 
-```bash
-Atom example.txt
-```
+    ```bash
+    Atom example.txt
+    ```
 
 You should now have the file, in this instance `example.txt` open in Atom.
 
