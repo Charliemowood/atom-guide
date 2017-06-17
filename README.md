@@ -4,6 +4,8 @@
 
 The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
 
+The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. Be aware that you maybe need to modify some of these instructions based on characteristics of your system.
+
 ## Prerequisites
 
 In order to follow this guide, you will need to have installed Atom on your system. Visit the [Atom website](https://atom.io/) to install it, if you have not already done so.
@@ -18,12 +20,53 @@ In order to follow this guide, you will need to have installed Atom on your syst
 
 # Opening, Editing, and Saving Files
 
+In this section, there will be a focus on getting started with several basic tasks in Atom using the graphical interface of your system. You may prefer to use the [Command Line](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders).
 
+### Open a file in Atom
+
+### Edit a file in Atom
+
+### Save a file in Atom
 
 
 
 
 # Opening Folders as Projects, and Editing Files within Projects
+
+### Opening Atom
+
+To open a project in Atom, you will need to open it in the graphical interface in your system first.
+
+Navigate to Atom in your system:
+
+* In **MacOS**: *Finder* > *Applications* > *Atom*.
+* In **Fedora**:
+  * Click on *Activities* in the top left hand corner.
+  * Click the bottom icon on the left hand side of the screen, it is called *Show Applications*.
+  * A new window with a search bar and a selection of icons will open. If you can see the Atom icon, click on it.
+  * Otherwise type Atom into the search bar and press enter.
+
+You should now be able to see that Atom has opened successfully.
+
+### Opening Folders as Projects
+
+To open folders in your system as Atom projects, follow the procedure below:
+
+* Navigate to *File*.
+* Select from the dropdown *Open*
+* A small window will open.
+* You are now inside your filesystem. Choose a folder that you would like to open.
+* Click *Open* in the bottom right hand corner to confirm your choice.  
+
+Your folder will now be open as a project in Atom.
+
+### Editing Files in Projects
+
+On the left-hand side of the screen, you will see a sidebar with all files in the project.
+
+To navigate to and edit a particular file in the project. Click on the name of the file in the sidebar and the selected file will open. You can now make any edits you wish and [save](#save-a-file-in-atom) the file.
+
+
 
 # Changing Default Tab Space Size
 
