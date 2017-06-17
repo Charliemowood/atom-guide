@@ -49,9 +49,15 @@ There are two ways to save a file in Atom.
 
 *Using Shortcuts*
 
-To save you can use a keyboard shortcut.
-* In **MacOS**: Cmd+s
-* In **Other Systems**: Ctrl+s
+To save you can use a keyboard shortcut. Use the table below to decide which keyboard shortcut you should use to save a file.
+
+#### Shortcuts for Saving a File
+
+| System        | Shortcut |
+| ------------- | -------- |
+| MacOS         |  Cmd-s   |
+| Other Systems |  Ctrl-s  |
+
 
 
 # Opening Folders as Projects, and Editing Files within Projects
