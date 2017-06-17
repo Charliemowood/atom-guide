@@ -24,11 +24,33 @@ In this section, there will be a focus on getting started with several basic tas
 
 ### Open a file in Atom
 
+It is relatively simple to open a simple a file in Atom.
+
+You need to find the file you want to open. It can be any file in your filesystem, for instance a file in *Desktop* or *Documents*.
+
+* Right click on the file you want to open.
+* Select from the dropdown *Open with* or *Open with Other Application* depending on your system.
+* A new window will open. Click on the Atom icon.
+
+You will now have the file you have selected open in Atom.
+
 ### Edit a file in Atom
+
+Once a file is open, the cursor will be focussed inside the file you have selected. You can then modify the file as you would like by inputing text.
 
 ### Save a file in Atom
 
+There are two ways to save a file in Atom.
 
+*Classic Way*
+* Navigate to *File*.
+* Select *Save* from the dropdown.
+
+*Using Shortcuts*
+
+To save you can use a keyboard shortcut.
+* In **MacOS**: Cmd+s
+* In **Other Systems**: Ctrl+s
 
 
 # Opening Folders as Projects, and Editing Files within Projects
