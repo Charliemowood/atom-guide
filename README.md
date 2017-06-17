@@ -10,12 +10,14 @@ The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. M
 
 In order to follow this guide, you will need to have installed Atom on your system. Visit the [Atom website](https://atom.io/) to install it, if you have not already done so.
 
+
 ### Table of Contents
 **[Opening, Editing, and Saving Files](#opening-editing-and-saving-files)**<br>
 **[Opening Folders as Projects, and Editing Files within Projects](#opening-folders-as-projects-and-editing-files-within-projects)**<br>
 **[Changing Default Tab Space Size](#changing-default-tab-space-size)**<br>
 **[Setting Up, and Using Atom from the Command Line to Open Files and Folders](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders)**<br>
 **[Installing and Applying Themes](#installing-and-applying-themes)**<br>
+
 
 # Opening, Editing, and Saving Files
 
@@ -87,6 +89,7 @@ On the left-hand side of the screen, you will see a sidebar with all files in th
 
 To navigate to and edit a particular file in the project. Click on the name of the file in the sidebar and the selected file will open. You can now make any edits you wish and [save](#save-a-file-in-atom) the file.
 
+
 # Changing Default Tab Space Size
 
 You may want to make some modification to your editor like changing the default Tab Space size. For instance, you might be writing Java and need four spaces rather than the default in Atom which two spaces.
@@ -112,12 +115,13 @@ For working with your text editor and especially opening new files. It is highly
 You will need to locate Terminal on your system.
 
 * In **MacOS**: Navigate to *Finder* > *Applications* > *Utilities* > *Terminal*.
-* In **Fedora**: Navigate to the top left hand corner and click on activities. Next, go to the bottom icon on the left hand side of the screen, it is called *Show Applications*. A search bar will open, as well as some application icons. If Terminal icon is present, click on this icon, otherwise type into the search bar "Terminal" and press enter.
+* In **Fedora**: Navigate to the top left hand corner and click on activities. Next, go to the bottom icon on the left hand side of the screen, it is called *Show Applications*. A search bar will open, as well as some application icons. If Terminal icon is present, click on this icon, otherwise type into the search bar *Terminal* and press enter.
 
 > **Please Note:**
 > Your system may vary. If you do get stuck try a simple internet search, for instance: *how to open Terminal on x*, where x is the system you are using.  
 
 You now have an open terminal and are ready to start using Atom.
+
 
 ### Opening files in Atom
 
@@ -130,7 +134,33 @@ To create, a new file you will usually locate the new file in a repository to ma
 atom example.txt
 ```
 
+
 # Installing and Applying Themes
+
+You may want to change how Atom appears. You do this through changing the theme of the editor.
+
+You need to open the core setting of Atom. By using one of the following shortcuts.
+* In **MacOS**: Press Cmd + , (command key followed by the comma key)
+* In **Other Systems**: Press Ctrl + , (control key followed by the comma key)
+
+You now have the settings open.
+
+* On the left of the screen select *Themes*.
+* Select from the dropdown below *UI Theme* or *Syntax Theme* a theme that you would like to use.
+
+The theme changes will take immediate effect.
+
+### Install a New Yheme.
+
+It may be the case that none of the default themes that come with Atom meet your needs. There are lots of themes to choose from online which you can add to Atom.
+
+To get more themes. Navigate to the core settings of Atom as you did in the previous section.
+
+* On the left of the screen select *Install*.
+* Check *Themes* to the right of the search bar.
+* Search for the theme you would like using the search bar. You can find more information about the themes available [here](https://atom.io/themes).
+* Click install. When the theme has finished downloading, it will be available for you to select from the dropdown in *Themes* as you did with the [default themes](#installing-and-applying-themes).  
+
 
 # Contributing
 
