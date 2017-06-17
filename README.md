@@ -6,7 +6,7 @@ The purpose of this short guide is to help you with several different tasks that
 
 
 **Note:**
-> Your system may vary. The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. MacOS has some peculiarities but Fedora should be quite representative of other systems. Be aware that you might need to modify some of these instructions based on characteristics of your system. If you do get stuck try a simple internet search, for instance: *how to open Terminal on x*, where x is the system you are using.  
+> Your system may vary. The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. MacOS has some peculiarities but Fedora should be quite representative of other systems. Be aware that you might need to modify some of these instructions based on characteristics of your system. If you do get stuck try a simple search on the internet, for instance: *how to open Terminal on x*, where x is the system you are using.  
 
 ## Prerequisites
 
@@ -23,16 +23,18 @@ In order to follow this guide, you will need to have installed Atom on your syst
 
 # Opening, Editing, and Saving Files
 
-In this section, there will be a focus on getting started with several basic tasks in Atom using the graphical interface of your system. You may prefer to use the [Command Line](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders).
+In this section, there will be a focus on getting started with several basic tasks in Atom using the graphical interface of your system. You can move to a relevant section if you prefer to use the [command line](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders).
 
 ### Open a file in Atom
 
 It is relatively simple to open a file in Atom.
 
-You need to find the file you want to open. It can be any file in your filesystem, for instance a file in *Desktop* or *Documents*.
+You need to find the file you want to open. It can be any file in your file system, for instance a file in *Desktop* or *Documents*.
+
+#### Procedure for Opening a File in Atom
 
 1. Right click on the file you want to open.
-2. Select from the dropdown *Open with* or *Open with Other Application* depending on your system.
+2. Select from the dropdown *Open with* or *Open with Other Application* depending on your operating system.
 3. A new window will open. Click on the Atom icon.
 
 You will now have the file you have selected open in Atom.
@@ -46,7 +48,7 @@ Once a file is open, the cursor will be focussed inside the file you have select
 There are two ways to save a file in Atom.
 
 *Inside Atom*
-1. From with Atom navigate to **File**.
+1. From within Atom navigate to **File**.
 2. Select **Save** from the dropdown.
 
 *Using Shortcuts*
@@ -90,7 +92,7 @@ To open folders in your system as Atom projects, follow the procedure below:
 1. From within Atom navigate to **File**.
 2. Select from the dropdown **Open**.
 3. A small window will open.
-4. You are now inside your filesystem. Choose a folder that you would like to open.
+4. You are now inside your file system. Choose a folder that you would like to open.
 5. Click **Open** in the bottom right hand corner to confirm your choice.  
 
 Your folder will now be open as a project in Atom.
@@ -104,9 +106,9 @@ To navigate to and edit a particular file in the project. Click on the name of t
 
 # Changing Default Tab Space Size
 
-You may want to make some modification to your editor like changing the default Tab Space size. For instance, you might be writing Java and need four spaces rather than the default in Atom which two spaces.
+You may want to make some modifications to your editor like changing the default Tab Space size. For instance, you might be writing Java and need four spaces rather than the default in Atom which is two spaces.
 
-To make such changes you need the access the core settings of Atom. To access these settings input the following based on the nature of your system. Use the table below to decide which shortcut you need, use the modifier key your system needs followed by the comma key.
+To make such changes you need to access the core settings of Atom. To access these settings use the table below to decide which shortcut you need, use the modifier key your operating system needs followed by the comma key.
 
 #### Shortcuts to Settings
 
@@ -116,7 +118,7 @@ To make such changes you need the access the core settings of Atom. To access th
 | Other Systems |  Ctrl-,  |
 
 
-You should now have Atom core settings open. Use the procedure below to change the tab length.
+You should now have Atom's core settings open. Use the procedure below to change the tab length.
 
 1. On the left of the screen select **Editor**.
 2. Scroll down to the section named **Tab Length**.
@@ -128,7 +130,7 @@ Your newly chosen tab length will now be in effect across all your projects.
 
 ### Terminal
 
-For working with your text editor and especially opening new files. It is highly recommended to use Terminal, you might also of heard this described as a command line interface or a shell. Terminal is used to create lots of different type of files in a given project for instance: .html, .js(JavaScript), .rb(Ruby) files ect. Terminal is used to give direct commands to your system and work in an efficient manner.
+For working with your text editor and especially opening new files. It is highly recommended to use Terminal, you might also of heard of this described as a command line interface or a shell. Terminal is used to create lots of different types of files in a given project for instance: .html, .js(JavaScript), .rb(Ruby) files ect. Terminal is used to give direct commands to your system.
 
 You will need to locate Terminal on your system.
 
@@ -143,34 +145,34 @@ You will need to locate Terminal on your system.
     * A new window with a search bar and a selection of icons will open. If you can see the Terminal icon, click on it.
     * Otherwise type *Terminal* into the search bar and press enter.
 
-You now have an open terminal and are ready to start using Atom.
+You now have an open terminal and are ready to start using Atom from the command line.
 
 
 ### Opening files in Atom from the Command Line
 
 In this section, you will learn how to use [Terminal](#terminal) to open files in Atom.
 
-To create, a new file you will usually locate the new file in a directory to make your project easy to find and add other relevant files.
+To create a new file you will usually locate the new file in a directory to make your project easy to find and add other relevant files.
 
 You should now have an open [Terminal](#terminal).
 
 #### Create a New File and Open Using Atom
 
-All the following command should be run sequentially by typing the commands into Terminal and pressing enter.
+All the following commands should be run sequentially by typing the commands into Terminal and pressing enter.
 
-1. Run the following command to create a new directory.
+1. Run the following command to create a new folder.
 
     ```bash
     mkdir example/
     ```
 
-2. To move into the directory you have created, run the command:
+2. To move into the folder you have created, run the command:
 
     ```bash
     cd example/
     ```
 
-3. To create a new file in this repository, run the command.
+3. To create a new file in this folder, run the command.
 
     ```bash
     touch example.txt
@@ -182,19 +184,21 @@ All the following command should be run sequentially by typing the commands into
     Atom example.txt
     ```
 
-You should now have the file, in this instance `example.txt` open in Atom.
+You should now have the file open in Atom, for this instance `example.txt` should be open.
 
 
 #### Open Existing Folders from the Command Line Using Atom
 
 There are two ways to open existing folders (also referred to as directories) from the command line.  
 
-* You can follow the Atom command by the folder you want to open.
+* You can follow the Atom command by the folder you want to open. Like the following command.
+
     ```bash
     Atom example/
     ```    
 
-* If you are already located in the folder you want to open. This opens everything that is inside that folder.
+* If you are already located in the folder you want to open. The following command opens everything that is inside that folder.
+
     ```bash
     Atom .
     ```
@@ -203,7 +207,7 @@ There are two ways to open existing folders (also referred to as directories) fr
 
 You may want to change how Atom appears. You do this through changing the theme of the editor.
 
-You need to open the core setting of Atom. Use the table below to decide which shortcut you need, use the modifier key your system needs followed by the comma key.
+You need to open the core settings of Atom. Use the table below to decide which shortcut you need, use the modifier key your system needs followed by the comma key.
 
 #### Shortcuts to Settings
 
@@ -214,6 +218,8 @@ You need to open the core setting of Atom. Use the table below to decide which s
 
 You should now have the settings open.
 
+#### Procedure for Selecting Theme
+
 1. On the left of the screen select **Themes**.
 2. Select from the dropdown below **UI Theme** or **Syntax Theme** a theme that you would like to use.
 
@@ -223,17 +229,21 @@ The theme changes will take immediate effect.
 
 It may be the case that none of the default themes that come with Atom meet your needs. There are lots of themes to choose from online which you can add to Atom.
 
-To get more themes. Navigate to the core settings of Atom as you did in the previous section.
+To get more themes navigate to the core settings of Atom as you did in the previous section.
+
+#### Procedure for Installing a New Theme
 
 1. On the left of the screen select **Install**.
 2. Check **Themes** to the right of the search bar.
 3. Search for the theme you would like using the search bar. You can find more information about the themes available [here](https://atom.io/themes).
 4. Click install. When the theme has finished downloading, it will be available for you to select from the dropdown in **Themes** as you did with the [default themes](#installing-and-applying-themes).  
 
-
+--------------------------------------------------------------------
 # Contributing
 
 This guide is built in Markdown. To download the guide locally on your machine, make changes and be able to preview changes: follow these steps.
+
+#### Downloading and Building this Guide Locally on your System
 
 1. Download this repository and change directory into the repository provided.
 
@@ -241,7 +251,7 @@ This guide is built in Markdown. To download the guide locally on your machine, 
     git clone https://github.com/Charliemowood/atom-guide && cd atom-guide
     ```
 
-2. Make the changes you require and save those changes.
+2. Make the changes you would like and save those changes.
 
 3. To preview the changes you have made, you will need the help of a piece of software called [grip](https://github.com/joeyespo/grip) to help build the Markdown and preview the result in the browser. Run the following command.
 
