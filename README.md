@@ -25,7 +25,7 @@ In this section, there will be a focus on getting started with several basic tas
 
 ### Open a file in Atom
 
-It is relatively simple to open a simple a file in Atom.
+It is relatively simple to open a file in Atom.
 
 You need to find the file you want to open. It can be any file in your filesystem, for instance a file in *Desktop* or *Documents*.
 
@@ -44,8 +44,8 @@ Once a file is open, the cursor will be focussed inside the file you have select
 There are two ways to save a file in Atom.
 
 *Classic Way*
-* Navigate to *File*.
-* Select *Save* from the dropdown.
+* Navigate to **File**.
+* Select **Save** from the dropdown.
 
 *Using Shortcuts*
 
@@ -62,9 +62,10 @@ To open a project in Atom, you will need to open it in the graphical interface i
 
 Navigate to Atom in your system:
 
-* In **MacOS**: *Finder* > *Applications* > *Atom*.
+* In **MacOS**:
+  * **Finder** > **Applications** > **Atom**.
 * In **Fedora**:
-  * Click on *Activities* in the top left hand corner.
+  * Click on **Activities** in the top left hand corner.
   * Click the bottom icon on the left hand side of the screen, it is called *Show Applications*.
   * A new window with a search bar and a selection of icons will open. If you can see the Atom icon, click on it.
   * Otherwise type Atom into the search bar and press enter.
@@ -75,11 +76,11 @@ You should now be able to see that Atom has opened successfully.
 
 To open folders in your system as Atom projects, follow the procedure below:
 
-* Navigate to *File*.
-* Select from the dropdown *Open*
+* Navigate to **File**.
+* Select from the dropdown **Open**.
 * A small window will open.
 * You are now inside your filesystem. Choose a folder that you would like to open.
-* Click *Open* in the bottom right hand corner to confirm your choice.  
+* Click **Open** in the bottom right hand corner to confirm your choice.  
 
 Your folder will now be open as a project in Atom.
 
@@ -94,14 +95,20 @@ To navigate to and edit a particular file in the project. Click on the name of t
 
 You may want to make some modification to your editor like changing the default Tab Space size. For instance, you might be writing Java and need four spaces rather than the default in Atom which two spaces.
 
-To make such changes you need the access the core settings of Atom. To access these setting input the following based on the nature of your system.
-* In **MacOS**: Press Cmd + , (command key followed by the comma key)
-* In **Other Systems**: Press Ctrl + , (control key followed by the comma key)
+To make such changes you need the access the core settings of Atom. To access these settings input the following based on the nature of your system. Use the table below to decide which shortcut you need, use the modifier key your system needs followed by the comma key.
 
-You should now have Atom core settings open.
+#### Shortcuts to Settings
 
-* On the left of the screen select *Editor*.
-* Scroll down to the section named *Tab Length*.
+| System        | Shortcut |
+| ------------- | -------- |
+| MacOS         |  Cmd-,   |
+| Other Systems |  Ctrl-,  |
+
+
+You should now have Atom core settings open. Use the procedure below to change the tab length.
+
+* On the left of the screen select **Editor**.
+* Scroll down to the section named **Tab Length**.
 * In the text box below input the desired tab length you want.
 
 Your newly chosen tab length will now be in effect across all your projects.
@@ -114,7 +121,8 @@ For working with your text editor and especially opening new files. It is highly
 
 You will need to locate Terminal on your system.
 
-* In **MacOS**: Navigate to *Finder* > *Applications* > *Utilities* > *Terminal*.
+* In **MacOS**:
+  * Navigate to **Finder** > **Applications** > **Utilities** > **Terminal**.
 * In **Fedora**: Navigate to the top left hand corner and click on activities. Next, go to the bottom icon on the left hand side of the screen, it is called *Show Applications*. A search bar will open, as well as some application icons. If Terminal icon is present, click on this icon, otherwise type into the search bar *Terminal* and press enter.
 
 > **Please Note:**
@@ -139,11 +147,16 @@ atom example.txt
 
 You may want to change how Atom appears. You do this through changing the theme of the editor.
 
-You need to open the core setting of Atom. By using one of the following shortcuts.
-* In **MacOS**: Press Cmd + , (command key followed by the comma key)
-* In **Other Systems**: Press Ctrl + , (control key followed by the comma key)
+You need to open the core setting of Atom. Use the table below to decide which shortcut you need, use the modifier key your system needs followed by the comma key.
 
-You now have the settings open.
+#### Shortcuts to Settings
+
+| System        | Shortcut |
+| ------------- | -------- |
+| MacOS         |  Cmd-,   |
+| Other Systems |  Ctrl-,  |
+
+You should now have the settings open.
 
 * On the left of the screen select *Themes*.
 * Select from the dropdown below *UI Theme* or *Syntax Theme* a theme that you would like to use.
