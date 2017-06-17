@@ -2,7 +2,7 @@
 
 [Atom](https://atom.io/) is a cross-platform text editor. It has its own internal system that allows you to install packages that can add functionality to your editor. Atom is beginner friendly and it is relatively easy to become productive with it quickly. Text editors like Atom can be used for writing code as well as other uses.
 
-The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. It is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
+The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
 
 ## Prerequisites
 
@@ -18,25 +18,41 @@ In order to follow this guide, you will need to have installed Atom on your syst
 
 # Opening, Editing, and Saving Files
 
-### Terminal
 
-For working with your text editor and especially opening new files. It is highly recommended to use Terminal, you might also of heard this described as a Command Line interface or a shell. Terminal is used because we usually create lots of different type of files in a given project for instance: .html, .js(JavaScript), .rb(ruby) files ect. Terminal is used to give direct commands to your system and work an efficient manner.
 
-You will need to locate Terminal on your system.
 
-* In **MacOS**: Navigate to *Finder* > *Utilities* > *Terminal*.
-* In **Fedora**: Navigate to the top left hand corner and click on activities. Next, go to the bottom icon on the left hand side of the screen, it is called *Show Applications*. A search bar will open, as well as some application icons. If Terminal icon is present, click on this icon, otherwise type into the search bar "Terminal" and press enter.
 
-> **Note**
-Your system may vary! If you do get stuck try a simple internet search, for instance: *how to open Terminal on x*, where x is the system you are using.  
-
-You now have an open terminal and now ready to start using Atom.
 
 # Opening Folders as Projects, and Editing Files within Projects
 
 # Changing Default Tab Space Size
 
 # Setting Up, and Using Atom from the Command Line to Open Files and Folders
+
+### Terminal
+
+For working with your text editor and especially opening new files. It is highly recommended to use Terminal, you might also of heard this described as a Command Line interface or a shell. Terminal is used to create lots of different type of files in a given project for instance: .html, .js(JavaScript), .rb(Ruby) files ect. Terminal is used to give direct commands to your system and work in an efficient manner.
+
+You will need to locate Terminal on your system.
+
+* In **MacOS**: Navigate to *Finder* > *Applications* > *Utilities* > *Terminal*.
+* In **Fedora**: Navigate to the top left hand corner and click on activities. Next, go to the bottom icon on the left hand side of the screen, it is called *Show Applications*. A search bar will open, as well as some application icons. If Terminal icon is present, click on this icon, otherwise type into the search bar "Terminal" and press enter.
+
+> **Please Note:**
+> Your system may vary. If you do get stuck try a simple internet search, for instance: *how to open Terminal on x*, where x is the system you are using.  
+
+You now have an open terminal and are ready to start using Atom.
+
+### Opening files in Atom
+
+In this section, you will learn how to use [Terminal](#terminal) to open files in Atom.
+
+To create, a new file you will usually locate the new file in a repository to make your project easy to find and add other relevant files.
+
+ first need to create it as it does not exist yet. To create your first file in Atom, type the following commands into your Terminal.
+```bash
+atom example.txt
+```
 
 # Installing and Applying Themes
 
