@@ -4,7 +4,7 @@
 
 The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
 
-The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. Be aware that you maybe need to modify some of these instructions based on characteristics of your system.
+The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. MacOS has some peculiarities but Fedora should be quite representative of other systems. Be aware that you might need to modify some of these instructions based on characteristics of your system.
 
 ## Prerequisites
 
@@ -16,7 +16,6 @@ In order to follow this guide, you will need to have installed Atom on your syst
 **[Changing Default Tab Space Size](#changing-default-tab-space-size)**<br>
 **[Setting Up, and Using Atom from the Command Line to Open Files and Folders](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders)**<br>
 **[Installing and Applying Themes](#installing-and-applying-themes)**<br>
-
 
 # Opening, Editing, and Saving Files
 
@@ -88,9 +87,21 @@ On the left-hand side of the screen, you will see a sidebar with all files in th
 
 To navigate to and edit a particular file in the project. Click on the name of the file in the sidebar and the selected file will open. You can now make any edits you wish and [save](#save-a-file-in-atom) the file.
 
-
-
 # Changing Default Tab Space Size
+
+You may want to make some modification to your editor like changing the default Tab Space size. For instance, you might be writing Java and need four spaces rather than the default in Atom which two spaces.
+
+To make such changes you need the access the core settings of Atom. To access these setting input the following based on the nature of your system.
+* In **MacOS**: Press Cmd + , (command key followed by the comma key)
+* In **Other Systems**: Press Ctrl + , (control key followed by the comma key)
+
+You should now have Atom core settings open.
+
+* On the left of the screen select *Editor*.
+* Scroll down to the section named *Tab Length*.
+* In the text box below input the desired tab length you want.
+
+Your newly chosen tab length will now be in effect across all your projects.
 
 # Setting Up, and Using Atom from the Command Line to Open Files and Folders
 
