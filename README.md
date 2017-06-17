@@ -31,9 +31,9 @@ It is relatively simple to open a file in Atom.
 
 You need to find the file you want to open. It can be any file in your filesystem, for instance a file in *Desktop* or *Documents*.
 
-* Right click on the file you want to open.
-* Select from the dropdown *Open with* or *Open with Other Application* depending on your system.
-* A new window will open. Click on the Atom icon.
+1. Right click on the file you want to open.
+2. Select from the dropdown *Open with* or *Open with Other Application* depending on your system.
+3. A new window will open. Click on the Atom icon.
 
 You will now have the file you have selected open in Atom.
 
@@ -45,9 +45,9 @@ Once a file is open, the cursor will be focussed inside the file you have select
 
 There are two ways to save a file in Atom.
 
-*Classic Way*
-* Navigate to **File**.
-* Select **Save** from the dropdown.
+*Inside Atom*
+1. From with Atom navigate to **File**.
+2. Select **Save** from the dropdown.
 
 *Using Shortcuts*
 
@@ -78,8 +78,8 @@ Navigate to Atom in your system:
 
   * Click on **Activities** in the top left hand corner.
   * Click the bottom icon on the left hand side of the screen, it is called *Show Applications*.
-  * A new window with a search bar and a selection of icons will open. If you can see the Atom icon, click on it.
-  * Otherwise type Atom into the search bar and press enter.
+      * A new window with a search bar and a selection of icons will open. If you can see the Atom icon, click on it.
+      * Otherwise type Atom into the search bar and press enter.
 
 You should now be able to see that Atom has opened successfully.
 
@@ -87,11 +87,11 @@ You should now be able to see that Atom has opened successfully.
 
 To open folders in your system as Atom projects, follow the procedure below:
 
-* Navigate to **File**.
-* Select from the dropdown **Open**.
-* A small window will open.
-* You are now inside your filesystem. Choose a folder that you would like to open.
-* Click **Open** in the bottom right hand corner to confirm your choice.  
+1. From within Atom navigate to **File**.
+2. Select from the dropdown **Open**.
+3. A small window will open.
+4. You are now inside your filesystem. Choose a folder that you would like to open.
+5. Click **Open** in the bottom right hand corner to confirm your choice.  
 
 Your folder will now be open as a project in Atom.
 
@@ -118,9 +118,9 @@ To make such changes you need the access the core settings of Atom. To access th
 
 You should now have Atom core settings open. Use the procedure below to change the tab length.
 
-* On the left of the screen select **Editor**.
-* Scroll down to the section named **Tab Length**.
-* In the text box below input the desired tab length you want.
+1. On the left of the screen select **Editor**.
+2. Scroll down to the section named **Tab Length**.
+3. In the text box below input the desired tab length you want.
 
 Your newly chosen tab length will now be in effect across all your projects.
 
@@ -189,11 +189,10 @@ You should now have the file, in this instance `example.txt` open in Atom.
 
 There are two ways to open existing folders (also referred to as directories) from the command line.  
 
-
 * You can follow the Atom command by the folder you want to open.
     ```bash
     Atom example/
-    ```
+    ```    
 
 * If you are already located in the folder you want to open. This opens everything that is inside that folder.
     ```bash
@@ -215,8 +214,8 @@ You need to open the core setting of Atom. Use the table below to decide which s
 
 You should now have the settings open.
 
-* On the left of the screen select *Themes*.
-* Select from the dropdown below *UI Theme* or *Syntax Theme* a theme that you would like to use.
+1. On the left of the screen select **Themes**.
+2. Select from the dropdown below **UI Theme** or **Syntax Theme** a theme that you would like to use.
 
 The theme changes will take immediate effect.
 
@@ -226,10 +225,10 @@ It may be the case that none of the default themes that come with Atom meet your
 
 To get more themes. Navigate to the core settings of Atom as you did in the previous section.
 
-* On the left of the screen select *Install*.
-* Check *Themes* to the right of the search bar.
-* Search for the theme you would like using the search bar. You can find more information about the themes available [here](https://atom.io/themes).
-* Click install. When the theme has finished downloading, it will be available for you to select from the dropdown in *Themes* as you did with the [default themes](#installing-and-applying-themes).  
+1. On the left of the screen select **Install**.
+2. Check **Themes** to the right of the search bar.
+3. Search for the theme you would like using the search bar. You can find more information about the themes available [here](https://atom.io/themes).
+4. Click install. When the theme has finished downloading, it will be available for you to select from the dropdown in **Themes** as you did with the [default themes](#installing-and-applying-themes).  
 
 
 # Contributing
@@ -237,24 +236,28 @@ To get more themes. Navigate to the core settings of Atom as you did in the prev
 This guide is built in Markdown. To download the guide locally on your machine, make changes and be able to preview changes: follow these steps.
 
 1. Download this repository and change directory into the repository provided.
-```bash
-git clone https://github.com/Charliemowood/atom-guide && cd atom-guide
-```
+
+    ```bash
+    git clone https://github.com/Charliemowood/atom-guide && cd atom-guide
+    ```
 
 2. Make the changes you require and save those changes.
 
 3. To preview the changes you have made, you will need the help of a piece of software called [grip](https://github.com/joeyespo/grip) to help build the Markdown and preview the result in the browser. Run the following command.
-```bash
-pip install grip
-```
+
+    ```bash
+    pip install grip
+    ```
 
 4. Run grip inside the repository where the guide is located.
-```bash
-grip
-```
+
+    ```bash
+    grip
+    ```
 
 5. Navigate to your browser of choice and enter the following for the URL. You will be able to preview the built Markdown.
-```URL
-http://localhost:6419/
-```
+
+    ```URL
+    http://localhost:6419/
+    ```
  6. If you are satisfied with your changes you can push them to git.
