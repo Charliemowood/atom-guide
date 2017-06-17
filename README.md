@@ -4,6 +4,10 @@
 
 The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. It is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
 
+## Prerequisites
+
+In order to follow this guide, you will need to have installed Atom on your system. Visit the [Atom website](https://atom.io/) to install it, if you have not already done so.
+
 ### Table of Contents
 **[Opening, Editing, and Saving Files](#opening-editing-and-saving-files)**<br>
 **[Opening Folders as Projects, and Editing Files within Projects](#opening-folders-as-projects-and-editing-files-within-projects)**<br>
@@ -13,6 +17,20 @@ The purpose of this short guide is to help you with several different tasks that
 
 
 # Opening, Editing, and Saving Files
+
+### Terminal
+
+For working with your text editor and especially opening new files. It is highly recommended to use Terminal, you might also of heard this described as a Command Line interface or a shell. Terminal is used because we usually create lots of different type of files in a given project for instance: .html, .js(JavaScript), .rb(ruby) files ect. Terminal is used to give direct commands to your system and work an efficient manner.
+
+You will need to locate Terminal on your system.
+
+* In **MacOS**: Navigate to *Finder* > *Utilities* > *Terminal*.
+* In **Fedora**: Navigate to the top left hand corner and click on activities. Next, go to the bottom icon on the left hand side of the screen, it is called *Show Applications*. A search bar will open, as well as some application icons. If Terminal icon is present, click on this icon, otherwise type into the search bar "Terminal" and press enter.
+
+> **Note**
+Your system may vary! If you do get stuck try a simple internet search, for instance: *how to open Terminal on x*, where x is the system you are using.  
+
+You now have an open terminal and now ready to start using Atom.
 
 # Opening Folders as Projects, and Editing Files within Projects
 
