@@ -27,15 +27,14 @@ In this section, there will be a focus on getting started with several basic tas
 
 ### Open a file in Atom
 
-It is relatively simple to open a file in Atom.
-
-You need to find the file you want to open. It can be any file in your file system, for instance a file located in *Desktop* or *Documents*.
+To open a file in Atom use the following procedure:
 
 #### Procedure for Opening a File in Atom
 
-1. Right click on the file you want to open.
-2. Select from the dropdown *Open with* or *Open with Other Application* depending on your operating system.
-3. A new window will open. Click on the Atom icon.
+1. Find the file you want to open. It can be any file in your file system, for instance, a file located in *Desktop* or *Documents*.
+2. Right click on the file you want to open.
+3. Select from the dropdown *Open with* or *Open with Other Application* depending on your operating system.
+4. A new window will open. Click on the Atom icon.
 
 You will now have the file you have selected open in Atom.
 
@@ -189,7 +188,7 @@ You should now have the file open in Atom. In this case `example.txt` should be 
 
 #### Open Existing Folders from the Command Line Using Atom
 
-There are two ways to open existing folders from the command line. Remember that command line refers to Terminal, so this will need to be open for you to be able to run commands. 
+There are two ways to open existing folders from the command line. Remember that command line refers to Terminal, so this will need to be open for you to be able to run commands.
 
 * You can follow the Atom command by the folder you want to open. Like running the following command:
 
