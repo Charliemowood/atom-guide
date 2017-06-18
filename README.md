@@ -29,8 +29,6 @@ In this section, there will be a focus on getting started with several basic tas
 
 To open a file in Atom use the following procedure:
 
-#### Procedure for Opening a File in Atom
-
 1. Find the file you want to open. It can be any file in your file system, for instance, a file located in *Desktop* or *Documents*.
 2. Right click on the file you want to open.
 3. Select from the dropdown *Open with* or *Open with Other Application* depending on your operating system.
