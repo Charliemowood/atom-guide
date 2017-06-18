@@ -253,7 +253,7 @@ This guide is built in Markdown. Use the following procedure to download the gui
 
 2. Make the changes you would like and save those changes.
 
-3. To preview the changes you have made, you will need the help of a piece of software called [grip](https://github.com/joeyespo/grip) to help build the Markdown and preview the result in the browser. Run the following command:
+3. To preview the changes you have made, you will need the help of a piece of software called [Grip](https://github.com/joeyespo/grip) to help build the Markdown and preview the result in the browser. Run the following command:
 
     ```bash
     pip install grip
