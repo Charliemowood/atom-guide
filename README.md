@@ -215,7 +215,7 @@ You need to open the core settings of Atom. Use the table below to decide which 
 
 You should now have the settings open.
 
-#### Procedure for Selecting Theme
+#### Procedure for Selecting a Theme
 
 1. On the left of the screen select **Themes**.
 2. Select from the dropdown below **UI Theme** or **Syntax Theme** a theme that you would like to use.
