@@ -2,11 +2,11 @@
 
 [Atom](https://atom.io/) is a cross-platform text editor. It has its own internal system that allows you to install packages that can add functionality to your editor. Atom is beginner friendly and it is relatively easy to become productive with it quickly. Text editors like Atom can be used for writing code as well as other uses.
 
-The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted toward new users. Use the table of contents to navigate to the part of the guide which is most relevant to you.
+The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted toward new users. You can use the table of contents to navigate to the part of the guide which is most relevant to you.
 
 
 **Note:**
-> Your system may vary. The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. MacOS has some unique features but Fedora should be quite representative of other operating systems. Be aware that you might need to modify some of these instructions based on characteristics of your own system. If you do get stuck try a simple search on the internet, for instance: *how to open Terminal on x*, where x is the system you are using.  
+> Your system may vary. The example systems used in this guide are MacOS Sierra 10.12.1 and Fedora 25. MacOS has some unique features but Fedora should be quite representative of other operating systems. However, be aware that you might need to modify some of these instructions based on characteristics of your own system. If you do get stuck try a simple search on the internet, for instance: *how to open Terminal on x*, where x is the system you are using.  
 
 ## Prerequisites
 
@@ -53,7 +53,7 @@ There are two ways to save a file in Atom.
 
 *Using Shortcuts*
 
-To save you can use a keyboard shortcut. Use the table below to decide which keyboard shortcut you should use to save a file.
+To save a file you can use a keyboard shortcut. Use the table below to decide which keyboard shortcut you should use to save your file.
 
 #### Shortcuts for Saving a File
 
@@ -106,7 +106,7 @@ To navigate to and edit a particular file in the project. Click on the name of t
 
 # Changing Default Tab Space Size
 
-You may want to make some modifications to your editor like changing the default Tab Space size. For instance, you might be writing Java and need four spaces rather than the default in Atom which is two spaces.
+You may want to make some modifications to your editor like changing the default Tab Space size. For instance, you might be writing *Java* and need four spaces rather than the default in Atom which is two spaces.
 
 To make such changes you need to access the core settings of Atom. To access these settings use the table below to decide which shortcut you need, use the modifier key your operating system needs followed by the comma key.
 
@@ -130,7 +130,7 @@ Your newly chosen tab length will now be active across all your projects.
 
 ### Terminal
 
-For working with your text editor and especially opening new files, you need to use Terminal. You might also hear this described as a command line interface or a shell. Terminal is used to create lots of different types of files in a given project for instance: .html, .js(JavaScript), .rb(Ruby) files ect. Terminal is used to give direct commands to your system.
+For working with your text editor and especially opening new files, you need to use Terminal. You might also hear this described as a command line interface or a shell. Terminal is used to give direct commands to your system. Terminal is useful to you because it can create lots of different types of files for a given project quickly.
 
 You will need to locate Terminal on your system.
 
@@ -145,7 +145,7 @@ You will need to locate Terminal on your system.
     * A new window with a search bar and a selection of icons will open. If you can see the Terminal icon, click on it.
     * Otherwise type *Terminal* into the search bar and press enter.
 
-You now have an open terminal and are ready to start using Atom from the command line.
+You now have an open Terminal and are ready to start using Atom from the command line.
 
 
 ### Opening files in Atom from the Command Line
@@ -154,7 +154,7 @@ In this section, you will learn how to use [Terminal](#terminal) to open files i
 
 To open a new file you will usually locate the new file in a folder. The purpose of this is to make your project easy to find and add other relevant files.
 
-You should now have an open Terminal.
+Make sure that you now have an open Terminal.
 
 #### Create a New File and Open Using Atom
 
@@ -189,7 +189,7 @@ You should now have the file open in Atom. In this case `example.txt` should be 
 
 #### Open Existing Folders from the Command Line Using Atom
 
-There are two ways to open existing folders (also referred to as directories) from the command line.  
+There are two ways to open existing folders from the command line. Remember that command line refers to Terminal, so this will need to be open for you to be able to run commands. 
 
 * You can follow the Atom command by the folder you want to open. Like running the following command:
 
@@ -259,7 +259,7 @@ This guide is built in Markdown. Use the following procedure to download the gui
     pip install grip
     ```
 
-4. Run grip inside the repository where the guide is located:
+4. Run Grip inside the repository where the guide is located:
 
     ```bash
     grip
