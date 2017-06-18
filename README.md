@@ -44,11 +44,12 @@ Once a file is open, the cursor will be located inside the file you have selecte
 
 There are two ways to save a file in Atom.
 
-*Inside Atom*
+**Inside Atom**
+
 1. From within Atom navigate to **File**.
 2. Select **Save** from the dropdown.
 
-*Using Shortcuts*
+**Using Shortcuts**
 
 To save a file you can use a keyboard shortcut. Use the table below to decide which keyboard shortcut you should use to save your file.
 
