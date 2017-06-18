@@ -25,7 +25,7 @@ In order to follow this guide, you will need to have installed Atom on your syst
 
 In this section, there will be a focus on getting started with several basic tasks in Atom using the graphical interface of your system. You can move to a more relevant section if you prefer to use the [command line](#setting-up-and-using-atom-from-the-command-line-to-open-files-and-folders).
 
-### Open a file in Atom
+### Open a File in Atom
 
 To open a file in Atom use the following procedure:
 
@@ -36,11 +36,11 @@ To open a file in Atom use the following procedure:
 
 You will now have the file you have selected open in Atom.
 
-### Edit a file in Atom
+### Edit a File in Atom
 
 Once a file is open, the cursor will be located inside the file you have selected. You can then modify the file as you would like by inputing text.
 
-### Save a file in Atom
+### Save a File in Atom
 
 There are two ways to save a file in Atom.
 
@@ -97,7 +97,7 @@ Your folder will now be open as a project in Atom.
 
 ### Editing Files in Projects
 
-On the left-hand side of the screen, you will see a sidebar with all files in the project.
+On the left hand side of the screen, you will see a sidebar with all files in the project.
 
 To navigate to and edit a particular file in the project. Click on the name of the file in the sidebar and the selected file will open. You can now make any edits you wish and [save](#save-a-file-in-atom) the file.
 
@@ -146,7 +146,7 @@ You will need to locate Terminal on your system.
 You now have an open Terminal and are ready to start using Atom from the command line.
 
 
-### Opening files in Atom from the Command Line
+### Opening Files in Atom from the Command Line
 
 In this section, you will learn how to use [Terminal](#terminal) to open files in Atom.
 
