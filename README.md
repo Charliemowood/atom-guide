@@ -2,7 +2,7 @@
 
 [Atom](https://atom.io/) is a cross-platform text editor. It has its own internal system that allows you to install packages that can add functionality to your editor. Atom is beginner friendly and it is relatively easy to become productive with it quickly. Text editors like Atom can be used for writing code as well as other uses.
 
-The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted toward new users. You can use the table of contents to navigate to the part of the guide which is most relevant to you.
+The purpose of this short guide is to help you with several different tasks that you might want to accomplish using the text editor Atom. This guide is especially targeted for new users. You can use the table of contents to navigate to the part of this guide which is most relevant to you.
 
 
 **Note:**
@@ -128,7 +128,7 @@ Your newly chosen tab length will now be active across all your projects.
 
 ### Terminal
 
-For working with your text editor and especially opening new files, you need to use Terminal. You might also hear this described as a command line interface or a shell. Terminal is used to give direct commands to your system. Terminal is useful to you because it can create lots of different types of files for a given project quickly.
+For working with your text editor and opening new files you can use Terminal. You might also hear this described as a command line interface or a shell. Terminal is used to give direct commands to your system. Terminal is useful to you because it can create lots of different types of files for a given project quickly.
 
 You will need to locate Terminal on your system.
 
@@ -243,7 +243,7 @@ This guide is built in Markdown. Use the following procedure to download the gui
 
 #### Downloading and Building this Guide Locally on your System
 
-1. Download this repository and change directory into the repository provided:
+1. Download this repository and change directory into the guide:
 
     ```bash
     git clone https://github.com/Charliemowood/atom-guide && cd atom-guide
@@ -257,7 +257,7 @@ This guide is built in Markdown. Use the following procedure to download the gui
     pip install grip
     ```
 
-4. Run Grip inside the repository where the guide is located:
+4. Run Grip inside the directory where the guide is located:
 
     ```bash
     grip
